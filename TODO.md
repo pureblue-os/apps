@@ -89,7 +89,8 @@ A structured plan for building **Startify**, an opinionated launcher/autostart/A
   - Fallback gracefully if not
 - [ ] Auto-fix outdated `.desktop` actions silently over time
   - Detect mismatches and update in background
-
+- [ ] Distrobox templates for things like one-click devenvoriment with jetbrains vscode or anything else you want while keeping your home folder clean.
+ 
 ## Future plans
 - Try to add flatpak support and also, make this app mainly a flatpak store, which also lets you install and manage other stuff from files.
 - Also should let you manage flatpak permissions.
