@@ -95,3 +95,4 @@ A structured plan for building **Startify**, an opinionated launcher/autostart/A
 - Also should let you manage flatpak permissions.
 - Everything about apps basically, store, install, manage, config, permissions, etc.
 - Distrobox templates for things like one-click devenvoriment with jetbrains vscode or anything else you want while keeping your home folder clean.
+- Brew support
