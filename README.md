@@ -29,7 +29,7 @@ Under flatpak category, we can have flatpak remotes on the left pane again.\
 And under Distrobox category we have distroboxes basically.\
 And under the AppImage Category, we can have the AppImage folders, and one for randomly found appimages in the system.
 
-Each category at the button can have a button that says "Add Remove", "Create Distrobox", "Add Library" etc.
+Each category at the bottom can have a button that says "Add Remote", "Create Distrobox", "Add Library" etc.
 
 When we click on a flatpak repo, on the right pane we see a hero that says more about the remote, and under it have the app list installed from that repo.\
 When we click on a distrobox, on the right pane we see a hero that says more about the distrobox, have actions like, start/stop it, or open it in terminal, and also at the bottom of it we also have list of exportable app in the distrobox.\
