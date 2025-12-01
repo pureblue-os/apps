@@ -1,4 +1,4 @@
-# 🧨 Startify
+# 🧨 Apps
 
 > **An opinionated, stylish AppImage/autostart/launcher manager for Linux — coming soon.**
 
