@@ -48,3 +48,4 @@ Some more notes:
 - Editting launchers directly is unsafe, and should warn you.
 - It might me better if startup launchers are executing the actual launcher, so if the launcher updates we dont have to keep an eye on two places.
 - And we can detect when the targetted launcher is missing and also get rid of startup.
+- We should also check repo of installed flatpaks, because remote can be removed after the app is installed. so we should also add to the remote list from install apps, and in the hero clearly state that repo doesnt exists anymore and the app is an oprhan
