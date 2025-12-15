@@ -46,6 +46,9 @@ Some more notes:
 - Take Android app management as an example, clear cache, clear appdata, uninstall, uninstall but keep data (might clear cache).
 - We should have warning banners in app detail pages for recommended actions: for example: we found an appimage inside the launchers, but its not placed in the appimages directory, we can have a little "Fix" button to move it on the banner.
 - Editting launchers directly is unsafe, and should warn you.
+- It might me better if startup launchers are executing the actual launcher, so if the launcher updates we dont have to keep an eye on two places.
+- And we can detect when the targetted launcher is missing and also get rid of startup.
+- We should also check repo of installed flatpaks, because remote can be removed after the app is installed. so we should also add to the remote list from install apps, and in the hero clearly state that repo doesnt exists anymore and the app is an oprhan. unless flatpak already gives us the remote of the apps by itself.
 
 ## Combination of:
 - Distroself
@@ -59,6 +62,4 @@ Some more notes:
 - Ignition
 
 Opinionated to isolate stuff as much as posibble.
-- It might me better if startup launchers are executing the actual launcher, so if the launcher updates we dont have to keep an eye on two places.
-- And we can detect when the targetted launcher is missing and also get rid of startup.
-- We should also check repo of installed flatpaks, because remote can be removed after the app is installed. so we should also add to the remote list from install apps, and in the hero clearly state that repo doesnt exists anymore and the app is an oprhan. unless flatpak already gives us the remote of the apps by itself.
+
