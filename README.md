@@ -51,7 +51,7 @@ Some more notes:
 - We should also check repo of installed flatpaks, because remote can be removed after the app is installed. so we should also add to the remote list from install apps, and in the hero clearly state that repo doesnt exists anymore and the app is an oprhan. unless flatpak already gives us the remote of the apps by itself.
 
 ## Combination of:
-- Distroself
+- Distroshelf
 - BoxBuddy
 - Bazaar
 - Extension Manager
