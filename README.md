@@ -77,3 +77,7 @@ Some more notes:
 - Ignition
 
 Opinionated to isolate stuff as much as posibble.
+
+## License
+
+[GPL v2](LICENSE)
